@@ -22,7 +22,9 @@
 }
 
 #mainLHS {
-    padding: 25px 0 0 0;
+    margin: 25px 0 0 0;
+    max-height: calc(100vh - 250px);
+    overflow-y: auto;
 }
 
 #connect {

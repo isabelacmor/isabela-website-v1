@@ -12,7 +12,7 @@ class Timeline extends React.Component {
             <div className="container">
 
                 <div className="timeline-item" date-is='September 2018'>
-                    <h1>Mentored at ShellHacks, FUI</h1>
+                    <h1>Mentored at ShellHacks</h1>
                     <p>
                         Gave various workshops, including "Static Website Deployment in Azure" and <a href="https://github.com/isabelacmor/fiu-interviewprep">"Demystifying the Tech Interview"</a>.
                     </p>
