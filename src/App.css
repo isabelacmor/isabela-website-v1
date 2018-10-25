@@ -1,54 +1,18 @@
-.App {
+.columnsContainer, footer, header { position: relative; }
+
+.leftColumn, .rightColumn, footer, header { padding: 0; height: 100vh; overflow-y: auto; }
+
+.leftColumn { padding: 20px 20px 20px 30px; }
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 47.5em ) {
+  .leftColumn { margin-right: 30em; }
+
+	.rightColumn { position: absolute; top: 0; right: 0; width: 30em; }   
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  /* background-color: #00cdcd; */
-  padding: 25px;
-  color: white;
-}
-
-.title {
-  font-family: LeagueGothic-Regular, sans-serif;
-  font-size: 5.5em;
-  text-transform: uppercase;
-  margin: 0;
-  color: #00cdcd;
-  text-shadow: -4px -4px white, -5px -5px #00cdcd;
-  letter-spacing: 5px;
-  width: 100%;
-  height: 100%;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-.mainBackground {
-  width: 100vw;
-  height: 100vh;
-  /* background:linear-gradient(to bottom right, transparent calc(50% - 1px),  #00cdcd calc(50% - 1px), #00cdcd 50%); */
-}
-
-.lorem {
-  color: #5c5454;
-  mix-blend-mode: difference;
-}
-
-#main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0 0 0 20px;
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
 @font-face {

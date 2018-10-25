@@ -21,7 +21,7 @@ class Timeline extends React.Component {
                 <div className="timeline-item" date-is='July 2018'>
                     <h1>Spoke at Seattle Keyboard Meetup</h1>
                     <p>
-                        "Anatomy of a Mechanical Keyboard", later <a href="https://www.massdrop.com/talk/10016/anatomy-of-a-mechanical-keyboard">featured on Massdrop</a>.
+                        <a href="https://ckeys.org/events/smkmeetup/#presentations">"Anatomy of a Mechanical Keyboard"</a>, later <a href="https://www.massdrop.com/talk/10016/anatomy-of-a-mechanical-keyboard">featured on Massdrop</a>.
                     </p>
                 </div>
 
@@ -69,7 +69,7 @@ class Timeline extends React.Component {
                 </div>
 
                 <div className="timeline-item" date-is='January 2013'>
-                    <h1>Joined UCF's programming team</h1>
+                    <h1>Joined UCF programming team</h1>
                     <p>
                         First <a href="https://today.ucf.edu/ucf-sends-first-all-female-team-to-super-bowl-of-programming/">all-women programming team</a> and placed third in the senior division at my first competition.
                     </p>
