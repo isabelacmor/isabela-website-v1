@@ -11,6 +11,20 @@ class Timeline extends React.Component {
         <div id="timelineRoot">
             <div className="container">
 
+                <div className="timeline-item" date-is='January 2019'>
+                    <h1>Spoke at Seattle Web App Developers Group Meetup</h1>
+                    <p>
+                        Presented <a href="https://www.meetup.com/Seattle-Web-App-Developers-Group/events/257189459/">"A/B Testing in React"</a> to 80 attendees, featuring <a href="https://www.slideshare.net/IsabelaMoreira21/ab-testing-with-react">slides</a>, <a href="https://www.youtube.com/watch?v=FsKlL8EE9pQ">recording</a>, and <a href="https://github.com/isabelacmor/ab-testing-react">code</a>.
+                    </p>
+                </div>
+
+                <div className="timeline-item" date-is='January 2019'>
+                    <h1>Mentored at Hack//WA</h1>
+                    <p>
+                        Representing Microsoft and helping hackers with technical questions during <a href="http://www.hackwashingtonstate.com/">the hackathon</a>.
+                    </p>
+                </div>
+
                 <div className="timeline-item" date-is='September 2018'>
                     <h1>Mentored at ShellHacks</h1>
                     <p>
