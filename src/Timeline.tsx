@@ -11,6 +11,13 @@ class Timeline extends React.Component {
         <div id="timelineRoot">
             <div className="container">
 
+                <div className="timeline-item" date-is='March 2019'>
+                    <h1>Spoke & mentored at KnightHacks</h1>
+                    <p>
+                        Represented Microsoft, presented <a href="https://github.com/TylerLeonhardt/AzureFunctions-CognitiveServices-FaceEmotion-Demo">"Azure Functions & Cognitive Services"</a>, and helped hackers with technical questions during <a href="https://knighthacks.org/">the hackathon</a>.
+                    </p>
+                </div>
+
                 <div className="timeline-item" date-is='January 2019'>
                     <h1>Spoke at Seattle Web App Developers Group Meetup</h1>
                     <p>
@@ -21,7 +28,7 @@ class Timeline extends React.Component {
                 <div className="timeline-item" date-is='January 2019'>
                     <h1>Mentored at Hack//WA</h1>
                     <p>
-                        Representing Microsoft and helping hackers with technical questions during <a href="http://www.hackwashingtonstate.com/">the hackathon</a>.
+                        Represented Microsoft and helped hackers with technical questions during <a href="http://www.hackwashingtonstate.com/">the hackathon</a>.
                     </p>
                 </div>
 
